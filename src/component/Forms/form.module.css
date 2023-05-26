@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+
+
+.container{
+   margin: 25px; 
+   display: flex;
+   flex-direction: column;
+}
+
+.inputEmail{
+    margin: 15px;
+    font-family: var(--font-indian); 
+    font-weight: bold;
+    width: 250px;
+    border: none; 
+    border-bottom: 2px solid var(--color-olive);  
+    color: var(--color-olive); 
+    font-size: larger;      
+}
+
+.inputEmail::placeholder{
+    color: var(--color-olive-transparent);  
+    font-size: medium;  
+}
+
+.inputEmail:focus{
+    outline: none;
+}
+
+.inputPassw{
+    margin: 15px;
+    font-family: var(--font-indian); 
+    font-weight: bold;
+    width: 250px;
+    border: none; 
+    border-bottom: 2px solid var(--color-olive);  
+    color: var(--color-olive); 
+    font-size: larger;     
+}
+
+.inputPassw::placeholder{
+    color: var(--color-olive-transparent); 
+    font-size: medium;     
+}
+
+.inputPassw:focus{
+    outline: none;
+}
+
+.buttonLogin{
+    font-family: var(--font-indian); 
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    margin: 15px;
+    border: none; 
+    color: var(--color-olive);  
+    border-radius: 4px;
+    background: var(--color-olive);
+    color: white;
+    transition: 0.5s;
+}
+
+.buttonLogin:hover{
+    background: orange;
+    color: white;
+   
+}
+
+.buttonLogin:focus{
+    outline: none;
+}

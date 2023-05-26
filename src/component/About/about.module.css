@@ -1,0 +1,72 @@
+.container{
+    font-family: var(--font-indian);
+    color: grey;
+}
+
+.parrafo{
+    margin: 30px;
+    font-weight: bold;
+    font-size: large;
+    text-align: justify;
+}
+
+.BsLinkedin{
+    color: var(--color-olive);
+    font-size: 35px;
+    margin: 25px; 
+    -webkit-transition: 0.5s linear; 
+    transition: 0.5s linear;  
+}
+
+.BsLinkedin:hover{
+    color: orangered;
+    cursor: pointer;    
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);     
+}
+
+.BsGithub{
+    color: var(--color-olive);
+    font-size: 35px;
+    margin: 25px;  
+    -webkit-transition: 0.5s linear; 
+    transition: 0.5s linear;       
+}
+
+.BsGithub:hover{
+    color: orangered;
+    cursor: pointer;   
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px); 
+}
+
+.FaArtstation{
+    color: var(--color-olive);
+    font-size: 35px; 
+    margin: 25px;  
+    -webkit-transition: 0.5s linear; 
+    transition: 0.5s linear;      
+}
+
+.FaArtstation:hover{
+    color: orangered;
+    cursor: pointer;   
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px); 
+}
+
+.FaYoutube{
+    color: var(--color-olive);
+    font-size: 35px; 
+    margin: 25px;  
+    -webkit-transition: 0.5s linear; 
+    transition: 0.5s linear;      
+}
+
+.FaYoutube:hover{
+    color: orangered;
+    cursor: pointer;    
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px); 
+}
+

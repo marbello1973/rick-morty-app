@@ -1,0 +1,48 @@
+.container{
+   margin: 0px;
+}
+
+.imageCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.optionsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+     
+}
+
+.selectOrder{    
+    font-family: var(--font-indian); 
+    font-weight: bold;   
+    border: 1px solid var(--color-olive); 
+    border-radius: 4px;     
+    color: var(--color-olive); 
+    font-size: larger;  
+    background: white;     
+} 
+
+.selectOrder:focus{
+    outline: none;
+    background: white;
+}
+
+.selectOption{
+    font-family: var(--font-indian); 
+    font-weight: bold;   
+    border: 1px solid var(--color-olive); 
+    border-radius: 4px;          
+    color: var(--color-olive); 
+    font-size: larger;  
+    background: white; 
+}
+
+.selectOption:focus{
+    outline: none;
+    background: white;
+}

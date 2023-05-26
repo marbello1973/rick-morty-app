@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;  
+    font-family: var(--font-indian);
+    align-items: center;
+    color: rosybrown;
+   
+}
+
+.nameImage{
+    display: flex;  
+    flex-direction: column;  
+    border: 1px solid var(--color-olive); 
+    border-radius: 8px;        
+}
+
+.origin{
+    margin: 2px;
+    color: var(--color-olive);
+}
+
+.especie{
+    color: var(--color-olive);
+}
+
+.estatus{
+    color: var(--color-olive);
+}
+
+.genero{
+    color: var(--color-olive);
+}
+

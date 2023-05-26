@@ -1,0 +1,41 @@
+.container{
+    font-family: var(--font-indian);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--color-olive);   
+    cursor: pointer;
+}
+
+.links{
+    display: flex;    
+}
+
+.about{
+    margin: 15px;    
+}
+.about:hover{
+    color: orange;
+    transition: 0.5s;
+}
+
+.favorite {
+    margin: 15px;
+}
+
+.favorite:hover{
+    color: orange;
+    transition: 0.5s;
+}
+
+.home{
+    margin: 15px;
+}
+
+.home:hover{
+    color: orange;
+    transition: 0.5s;
+}

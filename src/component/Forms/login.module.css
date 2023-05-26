@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+:root{    
+    --font-indian: 'Indie Flower', cursive; 
+    --font-Gloria: 'Gloria Hallelujah', cursive;
+    --color-grey: #9c9c9c;
+    --color-olive: #6b8e23;
+    --color-olive-transparent: #bbc7a2;
+}
+
+.welcome {   
+    font-family: var(--font-indian);
+    color: var(--color-olive);
+}
+
